@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.bosch.cds.xdk.toolchain.1935501105">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.bosch.cds.xdk.toolchain.1935501105" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="com.bosch.cds.xdk.toolchain.1935501105" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.bosch.cds.xdk.toolchain.1935501105.1373161935" name="/" resourcePath="">
+						<toolChain id="com.bosch.cds.xdk.toolchain.2005782135" name="BCDS XDK Toolchain" superClass="com.bosch.cds.xdk.toolchain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.bosch.cds.xdk.toolchain.targetplatform.1350009155" isAbstract="false" osList="all" superClass="com.bosch.cds.xdk.toolchain.targetplatform"/>
+							<builder buildPath="${workspace_loc:/MQTT_Paho}" id="com.bosch.cds.xdk.toolchain.builder.248559152" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.bosch.cds.xdk.toolchain.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+								</outputEntries>
+							</builder>
+							<tool id="com.bosch.cds.xdk.toolchain.c.592650823" name="BCDS C Compiler" superClass="com.bosch.cds.xdk.toolchain.c">
+								<option id="gnu.c.compiler.option.include.paths.953149405" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/arm-none-eabi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/lib/gcc/arm-none-eabi/4.7.4/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/lib/gcc/arm-none-eabi/4.7.4/include-fixed&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Common/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/ServalPAL_WiFi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/SensorUtils/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Power/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/BLE/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Basics/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Utils/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Common/config/HW_XDK_v1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/MiscDrivers/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Common/config/MiscDrivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Sensors/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/SensorToolbox/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Wlan/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Platform/Peripherals/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Libraries/WiFi/TI/simplelink/include&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1565660781" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NO_MD4=1"/>
+									<listOptionValue builtIn="false" value="NO_RC4=1"/>
+									<listOptionValue builtIn="false" value="NO_ERROR_STRINGS=1"/>
+									<listOptionValue builtIn="false" value="FP_MAX_BITS=512"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_XUDP=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_LOG_LEVEL=SERVAL_LOG_LEVEL_ERROR"/>
+									<listOptionValue builtIn="false" value="HAVE_THREAD_LS=1"/>
+									<listOptionValue builtIn="false" value="CYASSL_LPC43xx=1"/>
+									<listOptionValue builtIn="false" value="FREERTOS=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_MAX_SECURE_SOCKETS=5"/>
+									<listOptionValue builtIn="false" value="NO_FILESYSTEM=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_HTTP_MAX_NUM_SESSIONS=3"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_COAP_COMBINED_SERVER_AND_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_XTCP_SERVER=1"/>
+									<listOptionValue builtIn="false" value="LWM2M_MAX_NUM_OBSERVATIONS=50"/>
+									<listOptionValue builtIn="false" value="USER_TIME=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_COAP_OBSERVE=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_XTCP=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DTLS=1"/>
+									<listOptionValue builtIn="false" value="NO_WRITEV=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_REST_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="CYASSL_DTLS=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_REST_SERVER=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_XTCP_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="HAVE_AESCCM=1"/>
+									<listOptionValue builtIn="false" value="XMALLOC_USER=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_MAX_SECURE_CONNECTIONS=5"/>
+									<listOptionValue builtIn="false" value="NO_HC128=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_REST_COAP_BINDING=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_CYASSL=1"/>
+									<listOptionValue builtIn="false" value="NO_DES3=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_COAP_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_COAP_SERVER=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_HTTP_AUTH_DIGEST=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_TLS_ECC=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_MAX_NUM_MESSAGES=3"/>
+									<listOptionValue builtIn="false" value="COAP_MAX_NUM_OBSERVATIONS=50"/>
+									<listOptionValue builtIn="false" value="NO_RABBIT=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_HTTP_MAX_LENGTH_URL=256"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_HTTP_AUTH=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_TLS_CYASSL=1"/>
+									<listOptionValue builtIn="false" value="TFM_TIMING_RESISTANT=1"/>
+									<listOptionValue builtIn="false" value="HAVE_ECC=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_APP_DATA_ACCESS=0"/>
+									<listOptionValue builtIn="false" value="UNIQUE_MAC=0xFCD6BD090000"/>
+									<listOptionValue builtIn="false" value="ECC_SHAMIR=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DPWS=0"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_LWM2M=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_TLS_SERVER=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_REST_HTTP_BINDING=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DUTY_CYCLING=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DTLS_PSK=1"/>
+									<listOptionValue builtIn="false" value="TFM_ECC256=1"/>
+									<listOptionValue builtIn="false" value="USER_TICKS=1"/>
+									<listOptionValue builtIn="false" value="NO_PWDBASED=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_TLS_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="EFM32GG390F1024=1"/>
+									<listOptionValue builtIn="false" value="BLE_DEVICENAME=&quot;&quot;"/>
+									<listOptionValue builtIn="false" value="NO_DSA=1"/>
+									<listOptionValue builtIn="false" value="HAVE_HASHDRBG=1"/>
+									<listOptionValue builtIn="false" value="CYASSL_USER_IO=1"/>
+									<listOptionValue builtIn="false" value="DEFAULT_STARTUP=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_HTTP_SESSION_MONITOR_TIMEOUT=4000"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_HTTP_SERVER=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_MAX_SIZE_APP_PACKET=600"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_WEBSERVER=1"/>
+									<listOptionValue builtIn="false" value="HW_XDK_v1=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_DMA=1"/>
+									<listOptionValue builtIn="false" value="SINGLE_THREADED=1"/>
+									<listOptionValue builtIn="false" value="USE_FAST_MATH=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_HTTP_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="NO_SESSION_CACHE=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_DOWNGRADE_TLS=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DTLS_CLIENT=1"/>
+									<listOptionValue builtIn="false" value="SERVAL_ENABLE_DTLS_SERVER=1"/>
+									<listOptionValue builtIn="false" value="BCDS_OPEN_SOURCE_BST=1"/>
+									<listOptionValue builtIn="false" value="EM32LIBV3_FreeRTOSV7=1"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2145960453" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.bosch.cds.xdk.toolchain.c.ld.1809402768" name="BCDS C Linker" superClass="com.bosch.cds.xdk.toolchain.c.ld">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1276077174" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.bosch.cds.xdk.toolchain.as.77459650" name="BCDS Assembler" superClass="com.bosch.cds.xdk.toolchain.as">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.144898452" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.bosch.cds.xdk.toolchain.cxx.2017503344" name="BCDS C++ Compiler" superClass="com.bosch.cds.xdk.toolchain.cxx"/>
+							<tool id="com.bosch.cds.xdk.toolchain.cxx.ld.397557768" name="BCDS C++ Linker" superClass="com.bosch.cds.xdk.toolchain.cxx.ld"/>
+							<tool id="com.bosch.cds.xdk.toolchain.ar.1469199215" name="BCDS Archiver" superClass="com.bosch.cds.xdk.toolchain.ar"/>
+							<tool id="com.bosch.cds.xdk.toolchain.tool1.41179239" name="BCDS Create Flash Image" superClass="com.bosch.cds.xdk.toolchain.tool1"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="apt.null.1134630537" name="apt"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.bosch.cds.xdk.toolchain.1935501105;com.bosch.cds.xdk.toolchain.1935501105.1373161935;com.bosch.cds.xdk.toolchain.c.592650823;cdt.managedbuild.tool.gnu.c.compiler.input.2145960453">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/MQTT_Paho"/>
+		</configuration>
+	</storageModule>
+</cproject>
